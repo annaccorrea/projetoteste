@@ -8,7 +8,22 @@ class Disciplina {
 
   static List<Disciplina> gerarDisciplinas() {
     return [
-      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado')
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
+      Disciplina(codigo: 'PDME', nome: 'Prog p Disp Mov', professor: 'Dourado'),
     ];
   }
 }
