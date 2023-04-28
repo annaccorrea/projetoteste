@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:projetoteste/aula08/aula08.dart';
+import 'package:projetoteste/aula09/aula09.dart';
+import 'package:projetoteste/aula09/view/aula09_dashbord.dart';
+import 'package:projetoteste/aula09/view/aula09_disciplinas.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +18,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Aula08(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const Aula08(),
+        '/aula09': (context) => const Aula09(),
+        '/aula09_dashboard': (context) => const Aula09Dashboard(),
+        '/aula09_disciplinas': (context) => const Aula09Disciplinas(),
+      },
     );
   }
 }

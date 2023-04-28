@@ -5,6 +5,7 @@ import 'package:collection/collection.dart';
 import 'package:projetoteste/aula08/classes/login_details.dart';
 import 'package:projetoteste/aula08/widgets/login_text_field.dart';
 import 'package:projetoteste/aula08/widgets/tipo_login.dart';
+import 'package:projetoteste/aula09/aula09.dart';
 
 class Aula08 extends StatefulWidget {
   const Aula08({super.key});
@@ -115,7 +116,10 @@ class _Aula08State extends State<Aula08> {
                   style: ElevatedButton.styleFrom(
                       minimumSize:
                           Size(MediaQuery.of(context).size.width * 0.75, 30)),
-                  onPressed: _testarCampos,
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/aula09',
+                        arguments: {'nome': 'Nana'});
+                  },
                   child: const Text('Login'))
             ],
           ),
